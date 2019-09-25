@@ -1,0 +1,32 @@
+{
+  "name": "@noliaki/eslint-config-typescript-prettier",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noliaki/eslint-config-typescript-prettier.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noliaki/eslint-config-typescript-prettier/issues"
+  },
+  "homepage": "https://github.com/noliaki/eslint-config-typescript-prettier#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@noliaki/eslint-config-prettier": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  }
+}
